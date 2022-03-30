@@ -1,17 +1,20 @@
-
+import React from 'react';
 import './App.css';
-import NavBar from "./components/NavBar";
-import FullPage from "./components/FullPage";
+import NavBar from './components/NavBar';
+import FullPage from './components/FullPage';
+import Footer from './components/Footer';
+import Intro from './components/Intro/Intro';
 
 function App() {
-  return (
-      <div>
-        <NavBar/>
-        <FullPage color="red" label="about"/>
-        <FullPage color="blue" label="experience"/>
-        <FullPage color="green" label="skills"/>
-      </div>
-  )
+	return (
+		<div>
+			<NavBar/>
+			<Intro/>
+			<FullPage color="blue" label="experience"/>
+			<FullPage color="green" label="skills"/>
+			<Footer/>
+		</div>
+	);
 }
 
 export default App;
