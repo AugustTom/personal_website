@@ -15,7 +15,4 @@ describe('Typing words', () => {
 		});
 	});
 
-	it('changes the words', ()=>{
-			
-	});
 });
