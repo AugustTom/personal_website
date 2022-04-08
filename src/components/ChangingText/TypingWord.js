@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-export default ({textOptions = ['']}, deletingSpeed = 500, typingSpeed = 500) => {
+export default ({textOptions = ['']}, deletingSpeed = 500, typingSpeed = 500, pause=1000) => {
 	const [currentOption, setCurrentOption] = useState(0);
 	const [textLength, setTextLength] = useState(0);
 	const [currentAction, setCurrentAction] = useState(0); // 0 - typing, 1 - not typing, 2 - deleting
@@ -27,7 +27,7 @@ export default ({textOptions = ['']}, deletingSpeed = 500, typingSpeed = 500) =>
 			setCurrentAction(1);
 			setTimeout(() => {
 				setCurrentAction(2);
-			}, 500);
+			}, pause);
 			//	if text is finished start typing again
 		} else if (textLength === 0 && currentAction !== 0) {
 			setCurrentAction(0);
