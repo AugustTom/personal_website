@@ -1,0 +1,11 @@
+{
+  "portfolio": [
+    {
+      "title": "Automated Quiz Maker",
+      "description": "Designed an automatic quiz generator that converts any topic into fill-in-blank questions. Designed to work with Wikipedia, it makes use of popular Natural Language Processing techniques to rank, clean up and generate text.",
+      "image": "quiz-maker.png",
+      "href": "https://auguste-dissertation.herokuapp.com/",
+      "linkText": "Find out more about this project here"
+    }
+  ]
+}

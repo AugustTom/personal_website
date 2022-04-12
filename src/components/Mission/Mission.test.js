@@ -1,5 +1,5 @@
 import Mission from './Mission';
-import { render} from '@testing-library/react';
+import {render} from '@testing-library/react';
 import text from '../../data/about.json';
 
 describe('Mission', () => {
