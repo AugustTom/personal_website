@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Intro from './components/Intro/Intro';
 import About from './components/Mission/Mission';
 import Portfolio from './components/Portfolio/Portfolio';
+import Experience from './components/Experience/Experience';
 
 function App() {
 	return (
@@ -14,7 +15,7 @@ function App() {
 			<Intro/>
 			<About/>
 			<Portfolio/>
-			<FullPage color="blue" label="experience"/>
+			<Experience/>
 			<FullPage color="green" label="skills"/>
 			<Footer/>
 		</div>

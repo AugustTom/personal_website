@@ -1,12 +1,53 @@
 {
   "experience": [
     {
-      "title": "Experience",
-      "date": "September 2015 - Present",
-      "description": "",
+      "title": "Technical Lead",
+      "date": "2018 December - 2021 September",
+      "company": "Rewise Learning",
+      "description": ["Researched and presented ideas for STEM kits to the CEO of the organisation",
+        "Designed, developed and prototyped educational kits to introduce students to STEM (like the ones you just saw earlier).",
+        "Worked with the CEO to develop and implement a new curriculum for the organisation.",
+        "Coordinated with the product designer to streamline the production of the STEM kits. These kits eventually became one of the core business products at Rewise.",
+        "Took the initiative to introduce and deploy IT solutions such as GitHub and Slack to improve code management and productivity of the organisation."],
       "skills": [
-        "JavaScript",
-        "HTML"
+        "Embedded systems"
+      ]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "date": "2020 July – 2020 August",
+      "company": "Vodafone",
+      "description": ["Reviewed and improved data flow of the reporting for the Vodafone IoT department. This reduced the amount of manual human interaction required to produce reports by half a day each.",
+        "Created the framework for data ingestion automation to PowerBI reports that allow live monitoring of IoT Platform performance and development.",
+        "Delivered training to the IoT Strategy and Transformation team to ensure sustainability and future development of the reporting solution"],
+      "skills": [
+        "PowerBI",
+        "Python"
+      ]
+    },
+    {
+      "title": "Lab Engineer",
+      "date": "2019 July – 2020 July",
+      "company": "Vodafone",
+      "description": ["Automated inventory asset management using Python and Selenium WebDriver. Previously this task was carried out by editing assets one by one. It reduced task completion time from two days to minutes.",
+        "Automated data pipeline between three teams which ingested data from Atlassian Jira, Zephyr and SharePoint to PowerBI. This provided real-time insight into my team's assets, productivity, test cases, project completion and KPIs for the first time.",
+        "Following the success of the teams' report, working with the director of the department, I created a complete Agile Program Increment (PI) report. It provided an overview of all teams within the department. This, for the first time, allowed for live tracking of PI performance, leading to better resource management and planning.",
+        "Documented knowledge, best practices and developed training content on PowerBI reports. Delivered this through three workshops to 20+ people from various Vodafone departments."],
+      "skills": [
+        "PowerBI",
+        "Python",
+        "Selenium"
+      ]
+    },
+    {
+      "title": "Vulnerability Management Intern",
+      "date": "2018 June – 2018 September",
+      "company": "Vodafone",
+      "description": ["Provided support to deliver Vulnerability Reports to 40+ operating companies.",
+        "Proactively developed Python-based application, automating manual reporting tasks, eventually decreasing the global market report creation process from 2 weeks to 20 minutes.",
+        "Documented user guide and trained the team to ensure tool maintainability."],
+      "skills": [
+        "Python"
       ]
     }
   ]
