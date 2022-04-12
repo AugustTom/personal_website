@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-export default ({label}) => {
-    return (
-        <div style={{height: 1000 + 'px'}} id={label} >{label}</div>
-    )
-}
+export default ({label,children}) => {
+	return (
+		<div style={{height: 1000 + 'px'}} id={label} data-testid={label}>
+			<h1>{label}</h1>
+			<>{children}</>
+		</div>
+	);
+};
