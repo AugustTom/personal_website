@@ -1,8 +1,8 @@
 import {render} from '@testing-library/react';
-import Experience from './Experience';
+import Skills from './Skills';
 
-describe('Experience', () => {
+describe('Skills', () => {
 	it('renders without crashing', () => {
-		render(<Experience />);
+		render(<Skills />);
 	});
 });

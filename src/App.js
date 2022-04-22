@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
-import FullPage from './components/FullPage';
 import Footer from './components/Footer';
 import Intro from './components/Intro/Intro';
 import About from './components/Mission/Mission';
 import Portfolio from './components/Portfolio/Portfolio';
 import Experience from './components/Experience/Experience';
+import Skills from './components/Skills/Skills';
 
 function App() {
 	return (
@@ -16,7 +16,7 @@ function App() {
 			<About/>
 			<Portfolio/>
 			<Experience/>
-			<FullPage color="green" label="skills"/>
+			<Skills/>
 			<Footer/>
 		</div>
 	);

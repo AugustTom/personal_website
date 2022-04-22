@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "title": "Object Oriented Programming",
+      "level": 5
+    },
+    {
+      "title": "Natural Language Processing",
+      "level": 2
+    },
+    {
+      "title": "Web Development",
+      "level": 4
+    },
+    {
+      "title": "Data Visualization",
+      "level": 5
+    },
+    {
+      "title": "Machine Learning",
+      "level": 2
+    },
+    {
+      "title": "Job Automation",
+      "level": 5
+    }
+  ]
+}
