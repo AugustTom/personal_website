@@ -70,6 +70,8 @@ html {
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
+
+
 }
 html {
   font-size: var(--defaultFontSize);

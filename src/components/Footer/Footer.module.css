@@ -6,6 +6,7 @@
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    scroll-snap-align: end;
 }
 @media (min-width: 400px) {
     .footer {

@@ -1,9 +1,9 @@
 import React from 'react';
+import styles from './FullPage.module.css';
 
-export default ({label,children}) => {
+export default ({ children}) => {
 	return (
-		<div style={{height: 1000 + 'px'}} id={label} data-testid={label}>
-			<h1>{label}</h1>
+		<div className={styles.page}>
 			<>{children}</>
 		</div>
 	);
