@@ -1,20 +1,22 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import FullPage from '../FullPage';
+// import style from './Intro.module.css';
 
 export default () => {
 	return (
 		<FullPage>
-			<div className="intro">
-				<h1> Hi I am </h1>
+
+			<h1> Hi I am </h1>
+			<h1>
 				<Typewriter
 					options={{
-						strings: ['Auguste', 'a web developer', 'a learner', 'a maker'],
+						strings: ['Auguste', 'a developer', 'a learner', 'a maker'],
 						autoStart: true,
 						loop: true,
 					}}
 				/>
-			</div>
+			</h1>
 		</FullPage>
 	);
 };
