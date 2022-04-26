@@ -1,11 +1,27 @@
-.navigation {
-    align-items: center;
-    display: flex;
-    height: 64px;
-    justify-content: flex-end;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+@import "../../styles/vars.css";
+
+.navbar {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        height: 4rem;
+        display: flex;
+        max-width: 100vw;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navbar a {
+        display: none;
+    }
+    .open a {
+        display: flex;
+    }
+
 }
 
 .toggle {
@@ -23,7 +39,7 @@
 
 .toggle::before,
 .toggle::after {
-    box-shadow: 0 1px 0 0 #131313, 0 -2px 0 0 #2d2d2d;
+    box-shadow: 0 1px 0 0 var(--textColor), 0 -2px 0 0 var(--textColor);
     content: ' ';
     display: block;
     height: 4px;
@@ -32,24 +48,7 @@
 }
 
 .toggle::after {
-    box-shadow: 0 2px 0 0 #2f2f2f, 0 -1px 0 0 #363636;
-}
-
-.menu {
-    background-color: var(--color-dark-gray);
-    height: 100vh;
-    overflow: auto;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: .2s width ease-in-out;
-    width: 0;
-}
-
-.open {}
-
-.open .menu {
-    width: 100vw;
+    box-shadow: 0 2px 0 0 var(--textColor), 0 -1px 0 0 var(--textColor);
 }
 
 .open .toggle {
@@ -60,7 +59,7 @@
 
 .open .toggle::before,
 .open .toggle::after {
-    box-shadow: 0 0 0 1px #e77878;
+    box-shadow: 0 0 0 1px var(--textColor);
     height: 0;
     position: absolute;
     transform: rotate(45deg);
@@ -69,29 +68,4 @@
 
 .open .toggle::after {
     transform: rotate(-45deg);
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-}
-
-@media (min-width: 1024px) {
-    .navigation {
-        align-items: flex-start;
-        height: 100vh;
-        justify-content: flex-start;
-        width: 282px;
-    }
-
-    .toggle,
-    .open .toggle {
-        display: none;
-    }
-
-    .menu,
-    .open .menu {
-        position: relative;
-        width: 100%;
-    }
 }

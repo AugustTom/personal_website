@@ -5,17 +5,16 @@ import classNames from 'classnames';
 
 export default () => {
 	const [open, setOpen] = useState(false);
-
 	return (
-		<nav className="navbar sticky">
-
-			<div className="nav-center">
+		<>
+			<nav className={classNames(styles.navbar, {[styles.open]: open})}>
 				<Anchor anchor="mission">Mission</Anchor>
 				<Anchor anchor="portfolio">Portfolio</Anchor>
 				<Anchor anchor="experience">experience</Anchor>
 				<Anchor anchor="skills">skills</Anchor>
-				<div className={styles.toggle} onClick={() => setOpen(!open)} />
-			</div>
-		</nav>
+				<div className={styles.toggle} onClick={() => setOpen(!open)}/>
+			</nav>
+
+		</>
 	);
 };
