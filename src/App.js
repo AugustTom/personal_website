@@ -8,6 +8,14 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Experience from './components/Experience/Experience';
 import Skills from './components/Skills/Skills';
 
+// TODO - add navbar space at the top
+// - TODO: Fix up skills
+// - TODO: Fix up footer
+// - TODO: add portfolio
+// - TODO: change mission
+// TODO: add logo
+// TODO: add name
+
 function App() {
 	return (
 		<div className="container">

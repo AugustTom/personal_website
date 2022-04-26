@@ -6,10 +6,10 @@ export default () => {
 	const items = portfolioData.portfolio;
 
 	return (
-		<div id="portfolio">
+		<section id="portfolio">
 			{items.map(item => {
 				return <PortfolioItem key={item.title} {...item} />;
 			})}
-		</div>
+		</section>
 	);
 };
