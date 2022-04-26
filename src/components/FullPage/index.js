@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './FullPage.module.css';
-
-export default ({ children}) => {
+export default ({ children, label = ''}) => {
 	return (
-		<div className={styles.page}>
+		<section id={label.toLowerCase()} className={styles.page}>
 			<>{children}</>
-		</div>
+		</section>
 	);
 };

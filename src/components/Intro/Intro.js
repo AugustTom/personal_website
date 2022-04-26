@@ -5,7 +5,7 @@ import FullPage from '../FullPage';
 
 export default () => {
 	return (
-		<FullPage>
+		<FullPage label='intro'>
 
 			<h1> Hi I am </h1>
 			<h1>

@@ -6,7 +6,7 @@ import items from '../../data/skills.json';
 export default () => {
 	console.log(items.skills);
 	return (
-		<FullPage>
+		<FullPage label='skills'>
 			<p>Hello</p>
 			{items.skills && items.skills.map(item => <Item key={item.title} skill={item} />)}
 		</FullPage>);

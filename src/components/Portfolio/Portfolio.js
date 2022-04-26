@@ -5,5 +5,11 @@ import portfolioData from '../../data/portfolio';
 export default () => {
 	const items = portfolioData.portfolio;
 
-	return items.map(item => <PortfolioItem key={item.title} {...item} />);
+	return (
+		<div id="portfolio">
+			{items.map(item => {
+				return <PortfolioItem key={item.title} {...item} />;
+			})}
+		</div>
+	);
 };

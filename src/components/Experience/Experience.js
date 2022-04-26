@@ -5,5 +5,11 @@ import experienceData from '../../data/experience.json';
 export default () => {
 	const items = experienceData.experience;
 
-	return items.map(item => <ExperienceItem key={item.title} {...item} />);
+	return (
+		<div id="experience">
+			{items.map(item => {
+				return <ExperienceItem key={item.title} {...item} />;
+			})}
+		</div>
+	);
 };
