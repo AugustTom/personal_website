@@ -1,12 +1,17 @@
+@import "../../styles/vars.css";
+
 .footer {
     display: flex;
-    background-color: #645cff;
     align-items: center;
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
     scroll-snap-align: end;
+
+    border-top: var(--grey-700) solid 1px;
+    margin: 0 10%;
+    padding: 4% 0;
 }
 @media (min-width: 400px) {
     .footer {
