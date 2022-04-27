@@ -5,7 +5,7 @@ export default ({skill = {title:'',level:0}}) => {
 	return (
 		<>
 			<div className="skill-item">
-				<div className="skill-item-title" data-testid="skill-item-title">{skill.title}</div>
+				<div className={styles.title} data-testid="skill-item-title"><h5>{skill.title}</h5></div>
 				<div className={styles.skills}>
 					{/*TODO replace with circles*/}
 					{Array(skill.level).fill(1).map((_,i) => <span key={i} className="skill-item-level-item">&#9732;</span>)}
