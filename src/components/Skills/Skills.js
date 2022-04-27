@@ -7,7 +7,6 @@ export default () => {
 	console.log(items.skills);
 	return (
 		<FullPage label='skills'>
-			<p>Hello</p>
 			{items.skills && items.skills.map(item => <Item key={item.title} skill={item} />)}
 		</FullPage>);
 };
