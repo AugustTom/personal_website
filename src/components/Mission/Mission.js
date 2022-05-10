@@ -5,9 +5,9 @@ import FullPage from '../FullPage';
 export default () => {
 	return (
 		<FullPage label="mission" >
-			<div data-testid="mission-text">
+			<h5 data-testid="mission-text">
 				{aboutStatement.about}
-			</div>
+			</h5>
 		</FullPage>
 	);
 };
