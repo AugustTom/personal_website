@@ -10,7 +10,7 @@ export default ({
 }) => {
 	return (
 		<FullPage>
-			<div className='experienceItem' >
+			<div>
 				<h5 className='date'>{date}</h5>
 				<h3 className='title'>{title}</h3>
 				<h4 className='company'><span>@</span>{company}</h4>

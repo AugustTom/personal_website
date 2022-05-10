@@ -6,10 +6,10 @@ export default () => {
 	const items = experienceData.experience;
 
 	return (
-		<div id="experience">
+		<section id="experience">
 			{items.map(item => {
 				return <ExperienceItem key={item.title} {...item} />;
 			})}
-		</div>
+		</section>
 	);
 };

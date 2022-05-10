@@ -10,3 +10,13 @@
     scroll-snap-align: start;
     padding: 0 10%;
 }
+
+.page > div {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .page  > div {
+        width: 70%;
+    }
+}
