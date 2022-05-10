@@ -13,13 +13,16 @@ export default ({
 	return (
 		<FullPage>
 			<div className={styles.item}>
-				<h3 className='title'>{title}</h3>
-				<div className={styles.description}>
-					{description}
+				<div className={styles.top}>
+					<h3 className="title">{title}</h3>
+					<span className={styles.description}>
+						{description}
+					</span>
+					<a className="link" href={href}>{linkText}</a>
 				</div>
-				<a className='link' href={href}>{linkText}</a>
-				{/*TODO fix imports */}
-				<img src={`../../assets/${title.replaceAll(' ', '-').toLowerCase()}.gif`} alt={`${title} animation`}/>
+				<img
+					src={`https://auguste-personal-website.s3.eu-west-2.amazonaws.com/${title.replaceAll(' ', '-').toLowerCase()}.gif`}
+					alt={`${title} animation`}/>
 			</div>
 		</FullPage>
 	);

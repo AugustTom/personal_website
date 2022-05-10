@@ -17,7 +17,7 @@
     --primary-1100: #0a0919;
     /* grey */
     --grey-0: #fafbfc;
-    --grey-50: #f2f4f8;
+    --grey-50: #f2f4f8;;
     --grey-100: #eaedf3;
     --grey-200: #e2e7ef;
     --grey-300: #dbe0ea;
@@ -46,7 +46,7 @@
     --smallText: 0.8em;
     --extraSmallText: 0.7em;
     /* rest */
-    --backgroundColor: var(--grey-50);
+    --backgroundColor: var(white);
     --textColor: var(--grey-1000);
     --borderRadius: 0.25rem;
     --letterSpacing: 1px;
