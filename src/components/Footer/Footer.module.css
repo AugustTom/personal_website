@@ -12,9 +12,17 @@
     border-top: var(--grey-700) solid 1px;
     margin: 0 10%;
     padding: 4% 0;
+
 }
+
 @media (min-width: 400px) {
     .footer {
         flex-direction: row;
     }
+}
+
+.background{
+    width: 100%;
+    background: linear-gradient(8deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 6%, rgba(252, 176, 69, 1) 12%, rgba(252, 252, 252, 1) 22%, rgba(255, 255, 255, 1) 100%);
+
 }

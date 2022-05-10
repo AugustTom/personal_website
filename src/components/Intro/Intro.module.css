@@ -1,13 +1,7 @@
-.intro {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
+.background {
+    width: 100%;
+    height: 100%;
 
-@media (min-width: 800px) {
-    .intro{
-        flex-direction: row;
-    }
+    background: linear-gradient(224deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 6%, rgba(252, 176, 69, 1) 12%, rgba(252, 252, 252, 1) 22%, rgba(255, 255, 255, 1) 100%);
+
 }
