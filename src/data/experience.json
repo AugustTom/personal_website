@@ -1,6 +1,15 @@
 {
   "experience": [
     {
+      "title": "Full-Stack Engineer",
+      "date": "2021 September - Present",
+      "company": "Funding Circle",
+      "description": ["Currently working at an awesome fintech Funding Circle, where we are helping small businesses get the funding they need to win :) "],
+      "skills": [
+        "Testing", "CI/CD", "Web development", "React", "Functional Programming", "Clojure"
+      ]
+    },
+    {
       "title": "Technical Lead",
       "date": "2018 December - 2021 September",
       "company": "Rewise Learning",
