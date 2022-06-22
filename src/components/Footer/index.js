@@ -10,6 +10,9 @@ export default () => {
 				<FooterLink href={'https://github.com/AugustTom'}>Github</FooterLink>
 				<FooterLink href={'https://medium.com/@augusttomaeviit'}>Medium</FooterLink>
 			</div>
+			<div className={styles.copyright}>
+				Copyright &copy;{ new Date().getFullYear()} Auguste Tomaseviciute. All Rights Reserved
+			</div>
 		</div>
 	);
 };

@@ -11,10 +11,17 @@
 
     border-top: var(--grey-700) solid 1px;
     margin: 0 10%;
-    padding: 4% 0;
-
+    padding: 3% 0;
 }
 
+.copyright{
+    font-size: var(--smallText);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1% 0;
+    scroll-snap-align: end;
+}
 @media (min-width: 400px) {
     .footer {
         flex-direction: row;
