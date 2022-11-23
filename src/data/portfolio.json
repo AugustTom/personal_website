@@ -3,8 +3,8 @@
     {
       "title": "Automated Quiz Maker",
       "description": "Designed an automatic quiz generator that converts any topic into fill-in-blank questions. Designed to work with Wikipedia, it makes use of popular Natural Language Processing techniques to rank, clean up and generate text.",
-      "href": "https://auguste-dissertation.herokuapp.com/",
-      "linkText": "Find out more about this project here"
+      "href": "#",
+      "linkText": "Sorry, link is no longer available (Heroku is making me pay for it)"
     },
     {
       "title": "STEM kits",
