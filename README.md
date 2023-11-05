@@ -2,7 +2,7 @@
 
 Hello there! 👋 
 I'm Auguste, and this is the codebase for my very own slice of the internet: my personal website. 
-It's supposed to be a mix an online resume and a place for me to experiment. Have fun and feel free to hit me up if you have any questions! 
+It's supposed to be a mix of an online resume and a place for me to experiment. Have fun and feel free to hit me up if you have any questions! 
 
 ## What's Inside?
 
