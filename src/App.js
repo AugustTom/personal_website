@@ -8,13 +8,12 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Experience from './components/Experience/Experience';
 import Skills from './components/Skills/Skills';
 
-// TODO - add navbar space at the top
 // - TODO: Fix up skills
-// - TODO: Fix up footer
-// - TODO: add portfolio
+// - TODO: add contact form
 // - TODO: change mission
-// TODO: add logo
-// TODO: add name
+// - TODO: add back to the top icon
+// - TODO: fix tests
+
 
 function App() {
 	return (
