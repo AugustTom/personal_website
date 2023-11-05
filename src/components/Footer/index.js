@@ -7,7 +7,7 @@ export default () => {
 		<div className={styles.background}>
 			<div className={styles.footer} data-testid={'footer'}>
 				<FooterLink href={'https://www.linkedin.com/in/augusttom/'}>LinkedIn</FooterLink>
-				<FooterLink href={'https://github.com/AugustTom'}>Github</FooterLink>
+				<FooterLink href={'https://github.com/AugusteTomaseviciute'}>Github</FooterLink>
 				<FooterLink href={'https://medium.com/@augusttomaeviit'}>Medium</FooterLink>
 			</div>
 			<div className={styles.copyright}>
