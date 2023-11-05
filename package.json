@@ -17,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "npm run build && aws s3 sync build s3://augustetom.com"
+    "deploy": "npm run build && aws s3 sync build s3://augustetom.com --delete && aws cloudfront create-invalidation --distribution-id E296J4VJGCSHVZ --paths \\”/*\\”"
   },
   "browserslist": {
     "production": [
