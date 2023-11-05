@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Welcome to My Personal Portfolio Website!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello there! 👋 
+I'm Auguste, and this is the codebase for my very own slice of the internet: my personal website. 
+It's supposed to be a mix an online resume and a place for me to experiment. Have fun and feel free to hit me up if you have any questions! 
 
-## Available Scripts
+## What's Inside?
 
-In the project directory, you can run:
+- [Quick Introduction](#quick-introduction)
+- [Tech Stack](#tech-stack)
+- [Highlights](#highlights)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [How to Contribute](#how-to-contribute)
+- [The Legal Stuff](#the-legal-stuff)
+- [Say Hello](#say-hello)
 
-### `npm start`
+## Quick Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My website is a single-page application that's as snappy as a fresh carrot. It's where I showcase my most proud achievements, skills that I've honed, and projects that I've tinkered with. It's built with love, caffeine, and a bit of code magic.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+Here's what's under the hood:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** - For a dynamic and responsive user experience
+- **CSS** - For styling that makes the content pop
 
-### `npm run build`
+No fluff, no complexity—just a clean, modern web presence that talks about my professional life.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Highlights
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Concise and Pretty Design:** Easy on the eyes and fun to interact with.
+- **Project Showcase:** A  selection of my projects.
+- **About Me:** A quick introduction to my professional background and skills.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setting Up Shop
 
-### `npm run eject`
+If you're curious about how it's all put together or want to run it locally, here's how you get started:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```zsh
+# Clone this repository
+git clone https://github.com/AugusteTomaseviciute/personal_website.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the repository
+cd personal_website
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Start the development server
+npm start
+```
 
-## Learn More
+Now, it should be up and running on http://localhost:3000 — pretty easy, right?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+There's also a function to deploy it to the cloud - but that's protected from the world.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Navigate
+You can view the live site at https://augustetom.com/, but if you love digging into code, all the action happens in the src folder. Components, styles, assets—it's all there for you to explore.
 
-### Code Splitting
+## How to Contribute
+Hmmm... Not sure if you to contribute. But hey, I'm not here to stop you, just open a PR :)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## The Legal stuff
+This project is released under the MIT License, which means you can use the code here for pretty much anything, as long as you credit me. It's all about sharing knowledge and growing together.
 
-### Analyzing the Bundle Size
+## Say hello
+Feel free to reach out for a chat! I'm always open to talking tech, opportunities, and ideas. Here's where you can find me:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+LinkedIn: https://www.linkedin.com/in/augusttom/
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for stopping by, and I hope you enjoy my little digital abode as much as I enjoyed building it!
