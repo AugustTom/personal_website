@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  contact-api
+
+  SAM Template for contact me forms API.
+  
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 3
+  Api:
+    Cors:
+      AllowMethods: "'POST'"
+      AllowHeaders: "'Content-Type'"
+      AllowOrigin: "'https://www.augustetom.com'"
+
+Resources:
+  ContactMeFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: contact/
+      Handler: app.lambdaHandler
+      Runtime: nodejs20.x
+      Architectures:
+        - x86_64
+      Policies:
+        - SESCrudPolicy:
+            IdentityName: auguste.tomaseviciute@gmail.com
+      Events:
+        ContactMe:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /contact
+            Method: post
+
+Outputs:
+  ContactMeApi:
+    Description: "API Gateway endpoint URL for Prod stage for Contact Me function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/contact/"
+  ContactMeFunction:
+    Description: "Contact Me Lambda Function ARN"
+    Value: !GetAtt ContactMeFunction.Arn
+  ContactMeFunctionIamRole:
+    Description: "Implicit IAM Role created for ContactMeFunction function"
+    Value: !GetAtt ContactMeFunction.Arn

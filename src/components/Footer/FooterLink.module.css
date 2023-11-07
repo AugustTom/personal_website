@@ -1,15 +1,13 @@
-@import "../../styles/vars.css";
+@import "../../styles/vars.scss";
 
 .link {
     flex: 1;
     display: flex;
     justify-content: center;
     margin: 0;
-
 }
 
 .link a{
     text-decoration: none;
     color: var(--textColor);
-
 }

@@ -1,9 +1,15 @@
 import React from 'react';
 import styles from './FullPage.module.css';
-export default ({ children, label = ''}) => {
-	return (
-		<section id={label.toLowerCase()} className={styles.page}>
-			<>{children}</>
-		</section>
-	);
+import classNames from 'classnames';
+
+export default ({children, label = '', visible = true}) => {
+  return (
+    <section id={label.toLowerCase()}
+             className={classNames(styles.page, {
+               [styles.hide]: !visible,
+               [styles.show]: visible
+             })}>
+      {children}
+    </section>
+  );
 };
