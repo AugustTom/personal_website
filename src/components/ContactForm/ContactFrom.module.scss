@@ -1,0 +1,117 @@
+@import "src/styles/globals.scss";
+
+$input-background: rgba(252, 176, 69, 0.05);
+$border: none;
+$box-shadow: 0 0 2px $orange;
+
+.message {
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+
+  @include md {
+    width: 80%;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+    @include md {
+      flex-direction: row;
+    }
+
+    input {
+      border-radius: $border-radius;
+      background-color: $input-background;
+      border: $border;
+      padding: 10px;
+      box-shadow: $box-shadow;
+      color: $text-color;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 10px $orange;
+      }
+
+      @include md {
+        width: 50%;
+      }
+    }
+  }
+
+  textarea {
+    width: 100%;
+    border-radius: $border-radius;
+    background-color: $input-background;
+    border: $border;
+    padding: 10px;
+    box-shadow: $box-shadow;
+    color: $text-color;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 10px $orange;
+    }
+  }
+
+  .button {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    border: none;
+    background-color: $orange;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    color: white;
+
+    &:hover {
+      background-color: darken($orange, 10%);
+      transition: background-color 500ms linear;
+    }
+  }
+
+  .loading {
+    background: darken($orange, 10%);
+    position: relative;
+    border-radius: $border-radius;
+    cursor: wait;
+    animation: pulse 2s infinite;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(252, 176, 69, 0.6);
+    }
+    70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(252, 176, 69,  0.6);
+      box-shadow: 0 0 0 0 rgba(252, 176, 69, 1);
+    }
+    70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "contact_me",
+  "version": "1.0.0",
+  "description": "A simple api created using SAM for forwarding emails to my personal email address",
+  "main": "app.js",
+  "repository": "https://github.com/AugusteTomaseviciute/personal_website",
+  "author": "Auguste Tomaseviciute",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.474.0",
+    "axios": ">=0.21.1"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.2.0"
+  }
+}
