@@ -13,7 +13,7 @@ Globals:
     Cors:
       AllowMethods: "'POST'"
       AllowHeaders: "'Content-Type'"
-      AllowOrigin: "'https://www.augustetom.com'"
+      AllowOrigin: "'https://augustetom.com'"
 
 Resources:
   ContactMeFunction:
@@ -26,7 +26,7 @@ Resources:
         - x86_64
       Policies:
         - SESCrudPolicy:
-            IdentityName: auguste.tomaseviciute@gmail.com
+            IdentityName: hello@augustetom.com
       Events:
         ContactMe:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
